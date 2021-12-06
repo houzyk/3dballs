@@ -18,9 +18,12 @@ body, html {
   width: 90vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 2vw;
 }
 
 .ball {
   cursor: pointer;
   border-radius: 50%;
+  background-image: linear-gradient(hsl(329, 100%, 43%), hsl(45, 100%, 48%), hsl(206, 100%, 49%));
+  transition: all 0.3s;
 }
